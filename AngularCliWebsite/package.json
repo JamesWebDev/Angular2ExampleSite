@@ -10,6 +10,8 @@
     "test": "ng test",
     "pree2e": "webdriver-manager update --standalone false --gecko false",
     "e2e": "protractor",
+    "serve-prod": "npm run ng serve -- --prod --env=prod",
+    "build-dev": "npm run ng build -- --dev --env=dev",
     "build-prod": "npm run ng build -- --prod --env=prod"
   },
   "private": true,
