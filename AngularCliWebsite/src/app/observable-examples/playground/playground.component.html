@@ -1,0 +1,9 @@
+<br/>
+Filter:
+<input type="text" id="search">
+<br/>
+<ul>
+  <li *ngFor="let person of personList | filterPersons:searchString">
+    {{person}}
+  </li>
+</ul>
